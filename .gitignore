@@ -1,0 +1,4 @@
+downloads/
+*.zip
+.docker_build
+.docker_push
