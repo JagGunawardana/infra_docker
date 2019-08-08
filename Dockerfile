@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:256.0.0-alpine
+FROM google/cloud-sdk:257.0.0-alpine
 
 ARG TERRAFORM_FILENAME
 ENV TERRAFORM_FILENAME=$TERRAFORM_FILENAME
