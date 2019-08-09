@@ -10,7 +10,7 @@ Has binaries for:
 
 # Build
 
-Controlled by a good old fashioned Makefile. It builds the Docker, and pushes to a registry.
+Controlled by a good old fashioned Makefile. It builds the Docker, and pushes to a registry. You should ensure that you've logged into the registry with "docker login".
 
 ```
 make REGISTRY=reg_name
