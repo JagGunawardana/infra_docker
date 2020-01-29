@@ -32,6 +32,6 @@ ${TERRAFORM_FILENAME}: downloads downloads/terraform_checksum
 
 clean:
 	rm -rf downloads
-	rm ${TERRAFORM_FILENAME}
-	rm .docker_build
-	rm .docker_push
+	rm -f ${TERRAFORM_FILENAME}
+	rm -f .docker_build
+	rm -f .docker_push
